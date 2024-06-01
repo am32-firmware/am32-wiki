@@ -1,11 +1,21 @@
 {
-  "devDependencies": {
-    "vitepress": "^1.2.2"
-  },
-  "scripts": {
-    "dev": "vitepress dev",
-    "build": "vitepress build",
-    "preview": "vitepress preview",
-	"review": "vitepress build && vitepress preview"
-  }
+	"devDependencies": {
+		"@eslint/js": "^9.4.0",
+		"eslint-plugin-markdownlint": "^0.6.0",
+		"vitepress": "^1.2.2"
+	},
+	"scripts": {
+		"dev": "vitepress dev",
+		"build": "vitepress build",
+		"preview": "vitepress preview",
+		"review": "vitepress build && vitepress preview",
+		"lint": "eslint . ",
+		"lint:fix": "eslint . --fix",
+		"format": "prettier . --check",
+		"format:fix": "prettier . --write"
+	},
+	"dependencies": {
+		"eslint": "^9.4.0",
+		"prettier": "^3.3.0"
+	}
 }
