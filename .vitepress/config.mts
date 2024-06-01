@@ -17,6 +17,12 @@ export default defineConfig({
 			documentRootPath: "docs",
 			capitalizeFirst: true,
 			useTitleFromFileHeading: true,
+			manualSortFileNameByPriority: [
+				"general",
+				"guides",
+				"development",
+			],
+			excludeFiles: ["markdown-examples.md"]
 		}),
 
 		socialLinks: [
