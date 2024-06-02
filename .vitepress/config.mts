@@ -3,14 +3,14 @@ import { generateSidebar } from "vitepress-sidebar"
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-	title: "AM32 Docs",
-	description: "Documentation for AM32 ESC Firmware",
+	title: "AM32",
+	description: "ESC Firmware for 32bit ARM MCUs",
 	srcDir: "docs",
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
 		nav: [
 			{ text: "Home", link: "/" },
-			{ text: "Examples", link: "/markdown-examples" }
+			{ text: "Documentation", link: "/general/docs" }
 		],
 
 		sidebar: generateSidebar({
@@ -18,6 +18,7 @@ export default defineConfig({
 			capitalizeFirst: true,
 			useTitleFromFileHeading: true,
 			manualSortFileNameByPriority: [
+				"docs.md",
 				"general",
 				"guides",
 				"development",
@@ -26,7 +27,7 @@ export default defineConfig({
 		}),
 
 		socialLinks: [
-			{ icon: "github", link: "https://github.com/vuejs/vitepress" }
+			{ icon: "github", link: "https://github.com/am32-firmware/AM32" }
 		]
 	}
 })

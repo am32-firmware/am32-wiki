@@ -3,16 +3,15 @@
 layout: home
 
 hero:
-    name: "AM32 Docs"
-    text: "Documentation for AM32 ESC Firmware"
-    tagline: My great project tagline
+    name: "AM32"
+    text: "32bit ESC Firmware"
     actions:
         - theme: brand
-          text: Markdown Examples
-          link: /markdown-examples
+          text: Configurator
+          link: https://am32.ca
         - theme: alt
-          text: API Examples
-          link: /api-examples
+          text: Documentation
+          link: /general/docs
 
 features:
     - title: Feature A
