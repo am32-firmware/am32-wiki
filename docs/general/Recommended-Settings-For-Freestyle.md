@@ -1,9 +1,9 @@
-## TL;DR
+# TL;DR
 
 - Turn on Variable PWM frequency
 - Set Motor KV and Motor poles to match the motor
 
-## Variable PWM Frequency 
+## Variable PWM Frequency
 
 **PWM Frequency** (PWM driving frequency), in AM32, refers to the number of MOSFETs switching operations per second. It has no relation with the motor/ESC protocol nor the PID frequency of the FC.
 

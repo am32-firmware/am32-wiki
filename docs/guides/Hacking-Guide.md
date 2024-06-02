@@ -25,11 +25,9 @@ So we need to remove the readout protection of the MCU first with the following 
 1. Connect the ST-Link to you computer;
 2. Open "STM32 ST-Link Utility" software;
 3. Click "Target" and select the "Option Bytes..."
-4. Set as shown in the figure below. 
-
+4. Set as shown in the figure below.
 
 ![Option Bytes](https://i.imgur.com/8zAAC85.jpg)
-
 
 5. Click "Apply"
 6. After erasing is complete, click "Connect", then you should be able to read the information of the MCU. Do verify that the program in the MCU has been erased completely.

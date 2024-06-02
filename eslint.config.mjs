@@ -11,6 +11,10 @@ export default [
 		},
 		rules: {
 			...markdownPlugin.configs.recommended.rules,
+			"markdownlint/md013": "off", // long lines
+			"markdownlint/md024": "warn", // multiple headers with the same content
+			"markdownlint/md029": "warn", // ordered list item prefix
+			"markdownlint/md033": "off", // inline html
 		},
 		languageOptions: {
 			parser: markdownParser,

@@ -1,4 +1,7 @@
-## Total 48 Bytes.
+# Open ESC EEPROM Format
+
+## Total 48 Bytes
+
 ### Common Section First 18 Bytes
 
         0x01,              // esc boot byte, must be 1 in order to load main app byte 0
@@ -8,7 +11,7 @@
         0x04,              // firmware version minor
         0x6e, 0x45, 0x73, 0x63, 0x56, 0x31, 0x2e, 0x32, 0x23, 0x20, 0x20, 0x20,   // ESC name, 12 bytes
         0x00,              // direction reversed byte 17 default 0
-        
+
 ### Hardware Specific 30 Bytes
 
         0x00,      //bidirectional mode 1 for on 0 for off byte 18 default 0

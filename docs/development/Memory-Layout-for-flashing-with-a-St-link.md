@@ -1,3 +1,5 @@
+# Memory Layout for Flashing With an ST-Link
+
 This is to give a quick overview of flash memory structure for uploading AM32 with a ST-LINK, no flight controller is needed.
 
 You will need to have a working ST-LINK and a writeable ESC. If your speed controller has been write locked or read out protected you will need to use the ST-LINK to change option bytes of the MCU and erase the memory.
@@ -8,7 +10,7 @@ To fill the memory manually or in the case of custom builds.
 
 There are three distinct sections of FLASH memory that are used by the firmware. These each need a binary uploaded to the correct memory address. The three files needed are the BOOTLOADER, TARGET_FIRMARE file and the DEFAULT_EEPROM file.
 
-The BOOTLOADER area-- This occupies the first 4kb of memory, this communicates with the configuration tools and boots the main program if there is a valid input and EEPROM area. The bootloader version is dependent on the signal input pin used on the target ESC (PA2, PB4). See "list of supported hardware" in the wiki for details. [The bootloaders can be downloaded from here](https://github.com/AlkaMotors/AM32_Bootloader_F051/releases). Using ST-LINK upload the correct file to the mcus base memory address (0x08000000). 
+The BOOTLOADER area-- This occupies the first 4kb of memory, this communicates with the configuration tools and boots the main program if there is a valid input and EEPROM area. The bootloader version is dependent on the signal input pin used on the target ESC (PA2, PB4). See "list of supported hardware" in the wiki for details. [The bootloaders can be downloaded from here](https://github.com/AlkaMotors/AM32_Bootloader_F051/releases). Using ST-LINK upload the correct file to the mcus base memory address (0x08000000).
 
 The AM32_TARGET_FIRMWARE -- There are 27 kb set aside for the main app in the case of a 32kb mcu. This is the file that was downloaded from Github Releases for your specific speed controller. With the ST-LINK, this file is to be uploaded to memory address 0x08001000 ( 4 KB higher than base address). This is the only part of memory that gets updated when a new firmware version is released.
 
