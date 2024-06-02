@@ -5,7 +5,7 @@ import markdownParser from "eslint-plugin-markdownlint/parser.js"
 export default [
 	js.configs.recommended,
 	{
-		ignores: ["node_modules/", ".env*", "pnpm-lock.yaml", "package-lock.json", "yarn.lock", ".vitepress/cache/"],
+		ignores: ["node_modules/", ".env*", "pnpm-lock.yaml", "package-lock.json", "yarn.lock", ".vitepress/cache/", ".vitepress/dist/"],
 		plugins: {
 			markdownlint: markdownPlugin,
 		},

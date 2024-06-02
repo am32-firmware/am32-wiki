@@ -1,3 +1,4 @@
 # gitignore for vitepress
 node_modules
 .vitepress/cache
+.vitepress/dist
