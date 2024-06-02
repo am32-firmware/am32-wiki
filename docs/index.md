@@ -14,10 +14,13 @@ hero:
           link: /general/docs
 
 features:
-    - title: Feature A
-      details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    - title: Feature B
-      details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    - title: Feature C
-      details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    - title: Easy Upgrades
+      details: Seamlessly update via Betaflight passthrough
+    - title: Wide Protocol Support
+      details: Compatible with PWM and BiDirectional DShot300/600 protocols, with Betaflight and KISS Telemetry
+    - title: Variable PWM Frequency
+      details: Customize PWM frequency for precise motor control
+    - title: Sinusoidal Startup Mode
+      details: Smooth acceleration for larger motors
+
 ---
