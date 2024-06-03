@@ -70,6 +70,8 @@
 	--vp-c-danger-soft: rgba(220, 38, 38, 0.2);
 
 	--vp-c-text-1: #242424;
+
+	--vp-c-divider: var(--vp-c-text-2)
 }
 
 /**
