@@ -27,7 +27,8 @@ export default defineConfig({
 		}),
 
 		socialLinks: [
-			{ icon: "github", link: "https://github.com/am32-firmware/AM32" }
+			{ icon: "github", link: "https://github.com/am32-firmware/AM32" },
+			{ icon: "discord", link: "https://discord.com/invite/h7ddYMmEVV"}
 		]
 	}
 })
