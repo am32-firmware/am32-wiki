@@ -6,13 +6,19 @@ export default defineConfig({
 	title: "AM32",
 	description: "ESC Firmware for 32bit ARM MCUs",
 	srcDir: "docs",
+	lastUpdated: true,
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
 		nav: [
 			{ text: "Home", link: "/" },
 			{ text: "Documentation", link: "/general/docs" }
 		],
-
+		logo: {
+			light: "/am32-logo-dark.svg",
+			dark: "/am32-logo-white.svg"
+		},
+		siteTitle: false,
+		
 		sidebar: generateSidebar({
 			documentRootPath: "docs",
 			capitalizeFirst: true,
@@ -29,6 +35,12 @@ export default defineConfig({
 		socialLinks: [
 			{ icon: "github", link: "https://github.com/am32-firmware/AM32" },
 			{ icon: "discord", link: "https://discord.com/invite/h7ddYMmEVV"}
+		],
+
+		editLink: {
+			pattern: "https://github.com/am32-firmware/am32-wiki/edit/main/docs/:path",
+		}
+	},
 	vite: {
 		server: {
 			port: 8000
