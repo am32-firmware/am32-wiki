@@ -7,6 +7,9 @@ export default defineConfig({
 	description: "ESC Firmware for 32bit ARM MCUs",
 	srcDir: "docs",
 	lastUpdated: true,
+	head: [
+		["link", { rel: "icon", href: "/favicon.svg" }]
+	],
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
 		nav: [
@@ -18,7 +21,6 @@ export default defineConfig({
 			dark: "/am32-logo-white.svg"
 		},
 		siteTitle: false,
-		
 		sidebar: generateSidebar({
 			documentRootPath: "docs",
 			capitalizeFirst: true,
