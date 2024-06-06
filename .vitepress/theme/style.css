@@ -44,15 +44,26 @@
  * -------------------------------------------------------------------------- */
 
 :root {
+	--primary-50: #fee9ec;
+	--primary-100: #fdd3da;
+	--primary-200: #fba8b4;
+	--primary-300: #f87c8f;
+	--primary-400: #f65169;
+	--primary-500: #f42544;
+	--primary-600: #c31e36;
+	--primary-700: #921629;
+	--primary-800: #620f1b;
+	--primary-900: #31070e;
+
 	--vp-c-default-1: var(--vp-c-text);
 	--vp-c-default-2: hsl(0, 0%, 96%);
 	--vp-c-default-3: hsl(12, 0%, 92%);
 	--vp-c-default-soft: rgba(39, 36, 36, 0.5);
 
-	--vp-c-brand-1: hsl(351, 90%, 55%);
-	--vp-c-brand-2: hsl(351, 100%,60%);
-	--vp-c-brand-3: hsl(351, 90%, 55%);
-	--vp-c-brand-soft: rgba(244, 37, 68, 0.2);
+	--vp-c-brand-1: var(--primary-500);
+	--vp-c-brand-2: var(--primary-400);
+	--vp-c-brand-3: var(--primary-500);
+	--vp-c-brand-soft: #f4254433;
 
 	--vp-c-tip-1: #84cc16;
 	--vp-c-tip-2: #a3e635;
@@ -90,26 +101,6 @@
 	--vp-button-brand-active-bg: var(--vp-c-brand-1);
 }
 
-/**
- * Component: Home
- * -------------------------------------------------------------------------- */
-
-:root {
-	--vp-home-hero-name-color: transparent;
-	--vp-home-hero-name-background: -webkit-linear-gradient(
-		300deg,
-		hsl(351, 90%, 55%) 30%,
-		hsl(351, 100%, 31%)
-	);
-
-	--vp-home-hero-image-background-image: linear-gradient(
-		-45deg,
-		#bd34fe 50%,
-		#47caff 50%
-	);
-	--vp-home-hero-image-filter: blur(44px);
-}
-
 @media (min-width: 640px) {
 	:root {
 		--vp-home-hero-image-filter: blur(56px);
@@ -142,11 +133,6 @@
 }
 
 .dark {
-	/* old */
-	--vp-c-bg: #1b1b1f;
-    --vp-c-bg-alt: #161618;
-    --vp-c-bg-elv: #202127;
-    --vp-c-bg-soft: #202127;
 	/* new */
 	--vp-c-bg: #141212;
 	--vp-c-bg-alt: #141212;
@@ -158,10 +144,4 @@
 	--vp-c-default-soft: rgba(39, 36, 36, 0.5);
 
 	--vp-c-text-1: #f0f0f0;
-
-	--vp-home-hero-name-background: -webkit-linear-gradient(
-		300deg,
-		hsl(351, 100%, 53%) 30%,
-		hsl(351, 100%, 68%)
-	);
 }

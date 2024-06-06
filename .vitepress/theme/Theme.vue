@@ -23,8 +23,7 @@ const { Layout } = DefaultTheme;
 					<div class="xl:p-16 2xl:pt-32 md:p-8 p-4">
 						<h1
 							class="md:text-5xl text-2xl font-bold inline-block text-transparent bg-clip-text bg-gradient-to-br
-							from-[hsl(351,90%,55%)] via-[hsl(351,90%,55%)] to-[hsl(351,100%,31%)]
-							dark:from-[hsl(351,100%,53%)] dark:via-[hsl(351,100%,53%)] dark:to-[hsl(351,100%,68%)]"
+							from-primary-500 via-primary-500 to-primary-700 dark:to-primary-300"
 						>{{ frontmatter.hero.name }}</h1>
 						<p class="xl:text-5xl md:text-2xl text-lg font-bold md:mt-4 pt-2">{{ frontmatter.hero.text }}</p>
 						<div class="md:mt-8 mt-4 md:flex hidden gap-4">
