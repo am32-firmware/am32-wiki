@@ -39,6 +39,10 @@ export default defineConfig({
 			{ icon: "discord", link: "https://discord.com/invite/h7ddYMmEVV"}
 		],
 
+		search: {
+			provider: "local"
+		},
+
 		editLink: {
 			pattern: "https://github.com/am32-firmware/am32-wiki/edit/main/docs/:path",
 		}

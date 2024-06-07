@@ -135,7 +135,7 @@
 .dark {
 	/* new */
 	--vp-c-bg: #141212;
-	--vp-c-bg-alt: #141212;
+	--vp-c-bg-alt: #1d1a1a;
 	--vp-c-bg-soft: #201d1d;
 
 	--vp-c-default-1: var(--vp-c-text);
