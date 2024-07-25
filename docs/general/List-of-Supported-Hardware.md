@@ -55,7 +55,7 @@ Those are known ESCs that can work with existing targets
 
 The experimental branch puts all ESCs into a number of "hardware groups" with functionally equivalent pinouts. These are defined for each MCU.
 
-## F051
+## F051 Groups
 
 | Group | in  | in DMA | Tim_Ch | A Com | A Pwm | B Com | B Pwm | C Com | C Pwm | A Fb | B Fb | C Fb | Ref Fb | PWM side | Com drv | Com pol | Pwm drv | Pwm pol |
 | ----- | --- | ------ | ------ | ----- | ----- | ----- | ----- | ----- | ----- | ---- | ---- | ---- | ------ | -------- | ------- | ------- | ------- | ------- |
@@ -68,14 +68,14 @@ The experimental branch puts all ESCs into a number of "hardware groups" with fu
 
 *) D was removed from the code because it is equivalent to C, with a different phase order. It's included for completeness, to fill the gap between C and E.
 
-## F350
+## F350 Groups
 
 to be completed.
 
 | Group | in  | in DMA | Tim_Ch | A Com | A Pwm | B Com | B Pwm | C Com | C Pwm | A Fb | B Fb | C Fb | PWM side | Com drv | Com pol | Pwm drv | Pwm pol |
 | ----- | --- | ------ | ------ | ----- | ----- | ----- | ----- | ----- | ----- | ---- | ---- | ---- | -------- | ------- | ------- | ------- | ------- |
 
-## G071
+## G071 Groups
 
 to be completed.
 

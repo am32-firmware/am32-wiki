@@ -26,7 +26,6 @@ So we need to remove the readout protection of the MCU first with the following 
 2. Open "STM32 ST-Link Utility" software;
 3. Click "Target" and select the "Option Bytes..."
 4. Set as shown in the figure below.
-
 ![Option Bytes](https://i.imgur.com/8zAAC85.jpg)
 
 5. Click "Apply"
