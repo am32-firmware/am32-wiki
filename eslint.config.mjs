@@ -15,6 +15,7 @@ export default [
 			"markdownlint/md024": "warn", // multiple headers with the same content
 			"markdownlint/md029": "warn", // ordered list item prefix
 			"markdownlint/md033": "off", // inline html
+			"markdownlint/md036": "off", // emphasis used instead of a header
 		},
 		languageOptions: {
 			parser: markdownParser,

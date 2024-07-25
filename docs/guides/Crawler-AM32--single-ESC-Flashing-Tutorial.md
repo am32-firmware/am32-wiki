@@ -104,11 +104,11 @@ With your ESC and ST-Link connected, open STM32CubeProgrammer and click the gree
 
 ### Erasing the BLHeli32 firmware from the ESC
 
-<img src="https://github.com/Voodoobrew101/Media/blob/main/Stop_sign.png" data-canonical-src="https://github.com/Voodoobrew101/Media/blob/main/Stop_sign.png" width="200" height="200" />
+:::danger
 
-```diff
-- (This is a point of no return! There will be no way to re-upload BLHeli32 back to the esc once erased)
-```
+This is a point of no return! There will be no way to re-upload BLHeli32 back to the esc once erased
+
+:::
 
 1. Click on OB (Option bytes)
 
@@ -117,21 +117,19 @@ With your ESC and ST-Link connected, open STM32CubeProgrammer and click the gree
 3. Select “Write Protection” and check all the empty boxes, scroll through, get them all and click apply.
 
 4. Now do a full chip memory erase
-
-![](https://i.ibb.co/R3M3tJZ/read-out-prot.jpg)
+![STM32CubeProgrammer protection disabling steps](https://i.ibb.co/R3M3tJZ/read-out-prot.jpg)
 
 5. Select Erasing & Programming from the left
 
 6. Browse for the firmware you just downloaded
 
 7. Set the start address to 0x08000000 if it isn’t already
-
-* Bootloaders and _FULL.bins are uploaded to 0x08000000
-* Target firmware and _PART.bins are uploaded to 0x08001000
-* EEPROM binary for f051 or f031 chips are uploaded to 0x08007C00
-* Tip: It is safer and easier to upload the Firmware Target with the configuration tool with an Arduino or Flight controller, then upload default EEPROM settings by clicking "Send Default Settings"
-* Note: the esc will not work without uploading EEPROM settings
-* Note: The _FULL.bin files contain the Bootloader, EEPROM and Target files.
+    * Bootloaders and _FULL.bins are uploaded to 0x08000000
+    * Target firmware and _PART.bins are uploaded to 0x08001000
+    * EEPROM binary for f051 or f031 chips are uploaded to 0x08007C00
+    * Tip: It is safer and easier to upload the Firmware Target with the configuration tool with an Arduino or Flight controller, then upload default EEPROM settings by clicking "Send Default Settings"
+    * Note: the esc will not work without uploading EEPROM settings
+    * Note: The _FULL.bin files contain the Bootloader, EEPROM and Target files.
 
 8. Check the Skip flash erase before programming box if it isn’t already ( You dont want to erase your previous uploads if you are loading the files Individually )
 
@@ -139,7 +137,7 @@ With your ESC and ST-Link connected, open STM32CubeProgrammer and click the gree
 
 10. Click Start Programming to upload the file.
 
-![](https://i.ibb.co/Tk3yTqW/cube2a.jpg)
+![STM32CubeProgrammer programming steps](https://i.ibb.co/Tk3yTqW/cube2a.jpg)
 
 Repeat the above steps for each file, uploading it the the appropriate destination address in part 7.
 

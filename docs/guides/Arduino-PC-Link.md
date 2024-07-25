@@ -4,7 +4,7 @@ I use the cheapest Arduino Nano's that I can find. They use the a ATmega328P chi
 
 You want to connect the Signal/PWM from the ESC the pin D3 on the Arduino Nano and Ground to Ground (I know they call it one wire but there are 2 😄
 
-![](https://i.ibb.co/7NFNgqv/20210526-111526.jpg)
+![Arduino Nano with one wire pins](https://i.ibb.co/7NFNgqv/20210526-111526.jpg)
 
 **Note:** Some of these cheap Arduino Nano's come with a different (Older) bootloader, but its no big deal, both of these methods will work with either bootloader.
 
@@ -26,7 +26,7 @@ First go to <https://www.mediafire.com/folder/dx6kfaasyo24l/BLHeliSuite> to down
 
 5) Double check that your settings are all correct and click the button labeled "Arduino BLHeli Bootloader" and click confirm to program your Arduino.
 
-![](https://i.ibb.co/dfYYVbS/Arduino-Interface.jpg)
+![BLHeliSuite32 make interface setup](https://i.ibb.co/dfYYVbS/Arduino-Interface.jpg)
 
 ## Method 2 using Arduino IDE
 
@@ -55,15 +55,14 @@ Open the ESC Config Tool.
 
 3) Click the Connect Button.
 
-4) Read the ESC settings using the M1 button.
-
+4) Read the ESC settings using the M1 button.  
 Now you can adjust your settings, change tabs and upload new firmware, or load default eeprom settings.
 
 5) When your done save your settings.
 
 To double check that your settings were applied, close the connection then re-connect and hit M1 again.
 
-![](https://i.ibb.co/52Z3gqT/ESC-Config-Tool.jpg)
+![Multi ESC Config Tool setup](https://i.ibb.co/52Z3gqT/ESC-Config-Tool.jpg)
 
 For a Crawler you want to:
 
