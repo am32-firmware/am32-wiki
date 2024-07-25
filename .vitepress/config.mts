@@ -1,5 +1,6 @@
 import { defineConfig } from "vitepress"
 import { generateSidebar } from "vitepress-sidebar"
+import { tabsMarkdownPlugin } from "vitepress-plugin-tabs"
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -36,7 +37,7 @@ export default defineConfig({
 
 		socialLinks: [
 			{ icon: "github", link: "https://github.com/am32-firmware/AM32" },
-			{ icon: "discord", link: "https://discord.com/invite/h7ddYMmEVV"}
+			{ icon: "discord", link: "https://discord.com/invite/h7ddYMmEVV" }
 		],
 
 		search: {
@@ -50,6 +51,11 @@ export default defineConfig({
 	vite: {
 		server: {
 			port: 8000
+		}
+	},
+	markdown: {
+		config(md) {
+			md.use(tabsMarkdownPlugin)
 		}
 	}
 })

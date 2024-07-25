@@ -6,6 +6,7 @@
 		"postcss": "^8.4.38",
 		"tailwindcss": "^3.4.3",
 		"vitepress": "^1.2.2",
+		"vitepress-plugin-tabs": "^0.5.0",
 		"vitepress-sidebar": "^1.23.2"
 	},
 	"scripts": {
