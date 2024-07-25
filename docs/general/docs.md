@@ -1,3 +1,12 @@
 # AM32 Documentation
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nunc dapibus tortor vel mi dapibus sollicitudin. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Duis risus. Nulla pulvinar eleifend sem. Mauris tincidunt sem sed arcu. In enim a arcu imperdiet malesuada. Nullam dapibus fermentum ipsum. In sem justo, commodo ut, suscipit at, pharetra vitae, orci. Donec iaculis gravida nulla. Donec quis nibh at felis congue commodo. Mauris metus. Nullam feugiat, turpis at pulvinar vulputate, erat libero tristique tellus, nec bibendum odio risus sit amet ante. Suspendisse nisl. Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin sem purus in lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec vitae arcu.
+AM32 is a modern 32 bit electronic speed controllers firmware targetting a wide range of MCUs.
+
+Features are available for both multi-rotor and car or crawler usage.
+* Stall protection for cars and crawlers
+* Stuck rotor protection for multi-rotors
+* Firmware upgradable via betaflight passthrough, or single wire serial or Arduino
+* web configurator at [am32.ca](https://am32.ca)
+* Servo PWM and Dshot300/600
+* EDT for full Dshot telemetry via signal wires
+* Sinusoidal startup mode for smoother starting on cars and crawlers
