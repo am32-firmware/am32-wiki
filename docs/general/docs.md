@@ -3,6 +3,7 @@
 AM32 is a modern 32 bit electronic speed controllers firmware targetting a wide range of MCUs.
 
 Features are available for both multi-rotor and car or crawler usage.
+
 * Stall protection for cars and crawlers
 * Stuck rotor protection for multi-rotors
 * Firmware upgradable via betaflight passthrough, or single wire serial or Arduino
