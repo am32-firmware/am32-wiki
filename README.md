@@ -20,7 +20,9 @@ Features are available for both multi-rotor and car or crawler usage.
 ## Quick Links
 
 ### [Configuration Settings Explainer](docs\guides\ESC-Settings-Explained.md)
-An explanation of all the options that can be configured with a programming card
+An explanation of all the options that can be configured with a programming card.
+<br> <br>
+Further clarification is available [here](https://www.youtube.com/watch?v=wwYyp74oLa0&list=PLrxUiYCo7HwrIz1uE0aIfNT4GUgVMwc1t).
 
 ### [Custom ESC Programming Card](docs/guides/Arduino-PC-Link.md)
 Turn an arduino into a programming card, which can connect to an esc and change the configuration.
