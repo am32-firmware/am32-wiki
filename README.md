@@ -21,7 +21,7 @@ Features are available for both multi-rotor and car or crawler usage.
 
 ### [Configuration Settings Explainer](docs\guides\ESC-Settings-Explained.md)
 An explanation of all the options that can be configured with a programming card.
-<br> <br>
+
 Further clarification is available [here](https://www.youtube.com/watch?v=wwYyp74oLa0&list=PLrxUiYCo7HwrIz1uE0aIfNT4GUgVMwc1t).
 
 ### [Custom ESC Programming Card](docs/guides/Arduino-PC-Link.md)
@@ -39,3 +39,5 @@ A general guide to flashing non-am32 esc's with the am32 firmware. Some more spe
 
  ### [Standard Schematic](docs\development\standard_esc_1_1.pdf)
 A reference schematic for am32 esc design.
+
+Some discussion one hardware design can be found [here](docs\development\Hardware-Design.md).
