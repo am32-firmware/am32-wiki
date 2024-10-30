@@ -1,8 +1,8 @@
-# Crawler Single ESC Flashing Tutorial
+# Single ESC Flashing Tutorial
 
 Updated: August/24/2021
 
-These instruction are designed with a single esc for RC crawlers in mind, but the steps are basically the same for quadcopter use. For a 4in1 ESC you will need to connect and program each of the 4 ESC's individually.
+These instruction are designed with a single esc in mind, but the steps are basically the same for a 4in1 ESC, you normally just need to connect and program each of the 4 ESC's individually.
 
 ## Step 1: Gather your supplies
 
