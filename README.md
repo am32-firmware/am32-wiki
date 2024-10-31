@@ -1,23 +1,22 @@
 # Am32 Wiki
 
-Some resources for using and developing with the am32 firmware.
+This is not the am32 wiki, this repository is built into a website through the use of [VitePress](https://vitepress.dev/) and hosted on [Netlify](https://www.netlify.com/).
 
-## Introduction to AM32
-AM32 is a modern 32 bit electronic speed controllers firmware targetting a wide range of MCUs.
 
-Features are available for both multi-rotor and car or crawler usage.
+This wiki is intended to be viewed at: https://wiki.am32.ca/
 
-* Stall protection for cars and crawlers
-* Stuck rotor protection for multi-rotors
-* Firmware upgradable via betaflight passthrough, or single wire serial or Arduino
-* web configurator at [am32.ca](https://am32.ca)
-* Servo PWM and Dshot300/600
-* EDT for full Dshot telemetry via signal wires
-* Sinusoidal startup mode for smoother starting on cars and crawlers
 
+## Setting up a local environment
+
+If you wish to contribute to the wiki it is always appreciated. To do so you will probably want to be able to view changes as they are made. To do this clone the repository locally, ensure you have Node.js (and npm) installed. You should then be able host it locally by running: 
+`npm run dev`
+
+The local host should update automatically for in file changes, but some changes such as file changes require a restart of the local host.
 
 
 ## Quick Links
+
+While this isn't the intended way to access the documentation, if you wish some of the more useful pages are available here.
 
 ### [Configuration Settings Explainer](docs\guides\ESC-Settings-Explained.md)
 An explanation of all the options that can be configured with a programming card.
