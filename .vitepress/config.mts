@@ -15,7 +15,7 @@ export default defineConfig({
 		// https://vitepress.dev/reference/default-theme-config
 		nav: [
 			{ text: "Home", link: "/" },
-			{ text: "Documentation", link: "README" }
+			{ text: "Documentation", link: "/general/docs" }
 		],
 		logo: {
 			light: "/am32-logo-dark.svg",

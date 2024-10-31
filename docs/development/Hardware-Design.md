@@ -1,7 +1,5 @@
 # Hardware Design
 
-Some resources and references for designing custom hardware for use with the am32 firmware.
-
 
 ## Mosfet Selection
 
