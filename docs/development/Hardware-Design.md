@@ -1,5 +1,9 @@
 # Hardware Design
 
+Here are some resources and advice for making custom esc's.
+
+## Standard Schematic
+<img src="../development/standard_esc_1_1.svg" width=100% alt="Standard ESC Schematic">
 
 ## Mosfet Selection
 
