@@ -16,5 +16,3 @@ List of user-tested bootloaders and targets that work on existing BLHeli_32 ESCs
 == Individual
 | Name | Bootloader | Firmware | Notes |
 | ---- | ---------- | -------- | ----- |
-
-:::

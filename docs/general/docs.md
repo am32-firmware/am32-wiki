@@ -1,5 +1,4 @@
-# AM32 Documentation
-
+# Introduction to AM32
 AM32 is a modern 32 bit electronic speed controllers firmware targetting a wide range of MCUs.
 
 Features are available for both multi-rotor and car or crawler usage.

@@ -1,4 +1,6 @@
-# TL;DR
+# Reccomendations for Freestyle Drones
+
+## TL;DR
 
 - Turn on Variable PWM frequency
 - Set Motor KV and Motor poles to match the motor
