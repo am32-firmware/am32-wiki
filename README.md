@@ -39,4 +39,4 @@ A general guide to flashing non-am32 esc's with the am32 firmware. Some more spe
  ### [Standard Schematic](docs\development\standard_esc_1_1.pdf)
 A reference schematic for am32 esc design.
 
-Some discussion one hardware design can be found [here](docs\development\Hardware-Design.md).
+Some discussion on hardware design can be found [here](docs\development\Hardware-Design.md).
