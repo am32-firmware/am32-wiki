@@ -1,13 +1,8 @@
 {
 	"devDependencies": {
 		"@eslint/js": "^9.4.0",
-		"autoprefixer": "^10.4.19",
 		"eslint-plugin-markdownlint": "^0.6.0",
-		"postcss": "^8.4.38",
-		"tailwindcss": "^3.4.3",
-		"vitepress": "^1.2.2",
-		"vitepress-plugin-tabs": "^0.5.0",
-		"vitepress-sidebar": "^1.23.2"
+		"prettier": "^3.3.0"
 	},
 	"scripts": {
 		"dev": "vitepress dev",
@@ -20,7 +15,12 @@
 		"format:fix": "prettier . --write"
 	},
 	"dependencies": {
+		"autoprefixer": "^10.4.19",
 		"eslint": "^9.4.0",
-		"prettier": "^3.3.0"
+		"postcss": "^8.4.38",
+		"tailwindcss": "^3.4.3",
+		"vitepress": "^1.2.2",
+		"vitepress-plugin-tabs": "^0.5.0",
+		"vitepress-sidebar": "^1.23.2"
 	}
 }

@@ -1,0 +1,10 @@
+services:
+  am32-wiki:
+    build: .
+    container_name: am32-wiki
+    ports:
+      - "4173:4173"
+    env_file:
+     - ./stack.env
+    restart: always
+
