@@ -43,7 +43,6 @@ Huge thanks to the community for providing tests for all of these ESCs!
 | JHEMCU F722 AIO 40A | F051 PB4 V11    | AM32REF_F051        |       |
 | iFlight GN745 AIO   | F051 PB4        | AM32_IFLIGHT_F051   |       |
 | NeutronRC F7 55A    | G071 PB4 64K V7 | AM32_NEUTRONRC_G071 |       |
-|                     |                 |                     |       |
 
 == Individual
 | Name                         | Bootloader      | Firmware              | Notes                                                                 |
