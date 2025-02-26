@@ -3,5 +3,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    env_file:
+      - stack.env
     ports:
       - "${EXPOSE_PORT:-8080}:80"
