@@ -5,6 +5,8 @@ services:
       dockerfile: Dockerfile
     env_file:
       - stack.env
+    networks:
+      - proxy
 networks:
   proxy:
     external: true
