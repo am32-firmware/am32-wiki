@@ -1,5 +1,9 @@
 services:
   wiki:
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.am32-wiki.rule=Host(`wiki.am32.ca`)
+      - traefik.http.services.am32-wiki.loadbalancer.server.port=80
     build:
       context: .
       dockerfile: Dockerfile
