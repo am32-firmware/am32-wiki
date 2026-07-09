@@ -18,7 +18,7 @@ The local host should update automatically for in file changes, but some changes
 
 While this isn't the intended way to access the documentation, if you wish some of the more useful pages are available here.
 
-### [Configuration Settings Explainer](docs\guides\ESC-Settings-Explained.md)
+### [Configuration Settings Explainer](docs/guides/ESC-Settings-Explained.md)
 An explanation of all the options that can be configured with a programming card.
 
 Further clarification is available [here](https://www.youtube.com/watch?v=wwYyp74oLa0&list=PLrxUiYCo7HwrIz1uE0aIfNT4GUgVMwc1t).
