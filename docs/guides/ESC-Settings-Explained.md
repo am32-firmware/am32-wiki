@@ -8,7 +8,7 @@
 |Bi-Directional (fwd/rv)|Used for cars, normally crawlers. Throttle range is divided between forward and reverse where centre stick position is neutral||
 |Stuck Rotor Protection|This setting is primarily designed for quads.  When the esc detects the motor is stuck it will 'give up' trying to turn the motor until the throttle returns to the neutral position.  This should be disabled in rock crawlers as the esc will give up when trying to get over a difficult obstacle|Detects a stuck rotor and stops turning the motor until zero throttle|
 |Brake on Stop|Apply brake when the motor is not spinning|Motor will actively brake when it is not turning. Good for Crawlers|
-|Stall Protection|When the motor on load is going to stop, the esc will push some more  to prevent stopping|Good for crawlers|
+|Stall Protection|When the motor on load is going to stop, the esc will push some more  to prevent stopping|Good for Crawlers|
 |Sinusoidal Startup|Slow mode startup :)|Good for Crawlers|
 |30ms Telemetry|Enables a serial telemetry output on a 30ms interval using the Kiss telemetry protocol||
 |Use Hall Sensors|Not currently used use to lack of hall sensor capable targets||
