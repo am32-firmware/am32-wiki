@@ -34,6 +34,7 @@ Some esc's and microcontrollers that are known to work
 A general guide to flashing non-am32 esc's with the am32 firmware. Some more specific guides and resources are also available.
  - [SkyStars KM55A 4in1](docs\guides\Flashing-SkyStars-KM55A.md)
  - [Artery AT32F421 based esc's such as the Tekko32-45A](docs\guides\Flashing-Tekko32-45A-Single-ESC.md)
+ - [Foxeer Reaper F4 Slim Mini 60A 4in1 (AT32F421, no SWD pads)](docs/guides/Flashing-Foxeer-Reaper-F4-Slim-60A.md)
 
 
  ### [Standard Schematic](docs\development\standard_esc_1_1.pdf)
